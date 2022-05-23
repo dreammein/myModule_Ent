@@ -1,24 +1,24 @@
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie("Toy Story",
-                        "A story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=wmiIUN-7qhE")
+The_Abyss = media.Movie("The Abyss",
+                        "A civilian diving team is enlisted to search for a lost nuclear submarine and faces danger while encountering an alien aquatic species.",
+                        "https://upload.wikimedia.org/wikipedia/en/a/ad/TheAbyss.jpg",
+                        "https://www.youtube.com/watch?v=4zbpL3LeW7k")
 
 #print(toy_story.storyline)
 
-school_of_rock = media.Movie("School of Rock", 
-                             "Using rock music to learn",
-                             "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/School_of_Rock_Poster.jpg/220px-School_of_Rock_Poster.jpg",
-                             "https://www.youtube.com/watch?v=TExoc0MG4I4")
+Sphere = media.Movie("Sphere", 
+                             "A spaceship is discovered under three hundred years' worth of coral growth at the bottom of the ocean.",
+                             "https://upload.wikimedia.org/wikipedia/en/a/ac/Spheremovieposter.jpg",
+                             "https://www.youtube.com/watch?v=GJvKLetIV20")
 
-ratatouille = media.Movie("Ratatouille",
-                          "A rat is a chef in Paris",
-                          "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                          "https://www.youtube.com/watch?v=NgsQ8mVkN8w")
+Event_Horizon = media.Movie("Event Horizon",
+                          "A rescue crew investigates a spaceship that disappeared into a black hole and has now returned...with someone or something new on-board.",
+                          "https://upload.wikimedia.org/wikipedia/en/8/8c/Event_horizon_ver1.jpg",
+                          "https://www.youtube.com/watch?v=2nlkEY-3CMI")
 
 
 
-movies = [toy_story, ratatouille, school_of_rock]
+movies = [The_Abyss, Sphere, Event_Horizon]
 fresh_tomatoes.open_movies_page(movies)
